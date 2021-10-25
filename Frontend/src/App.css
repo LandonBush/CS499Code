@@ -1,0 +1,74 @@
+.app {
+  background-color: #fcf9f3;
+  position: absolute;
+  width: 100%;
+  top: 0px;
+  bottom: 0px;
+}
+
+.posts-container {
+  max-width: 70%;
+  margin: auto;
+}
+
+.login-container {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+
+.login-button {
+  height: 20px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.account-create-button {
+  height: 20px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 20px;
+}
+
+.post-create-container {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  height: 300px;
+}
+
+.post-create-content-container {
+  margin: auto;
+  display: flex;
+  flex-direction:column;
+  padding: 10px;
+}
+
+.post-create-content {
+  border-color: #9e9d99;
+  border-width: 2px;
+  border-radius: 15px;
+  border-style: solid;
+  height: 100%;
+}
+
+.post-button {
+  margin-top: 20px;
+  left: 45%;
+  width: 10%;
+  height: 50px;
+  font-size: 30px;
+  font-weight: bold;
+  position: relative;
+}
+
+.post {
+  text-align: center;
+  margin: 20px;
+  border-color: #9e9d99;
+  border-width: 2px;
+  border-radius: 15px;
+  border-style: solid;
+}
